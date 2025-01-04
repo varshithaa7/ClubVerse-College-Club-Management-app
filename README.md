@@ -1,7 +1,7 @@
 # Club Management System
 
 This repository contains the codebase for the **Club Management System** app designed to streamline club activities, recruitment processes, and event management at RV College of Engineering.
-
+:)
 ---
 
 ## Table of Contents
