@@ -61,7 +61,7 @@ The **Club Management System** is a Flutter-based app integrated with Firebase f
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<your-username>/club-management-system.git
+   git clone https://github.com/varshithaa7/ClubVerse-College-Club-Management-app.git
    cd club-management-system
    ```
 
