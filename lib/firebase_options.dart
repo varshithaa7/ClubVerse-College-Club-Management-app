@@ -47,30 +47,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBbas_waV63ybKo7b6GuxBetQczj91w3Fg',
-    appId: '1:375429456766:web:581d410a729ad6697c892f',
-    messagingSenderId: '375429456766',
-    projectId: 'fir-ff9c3',
-    authDomain: 'fir-ff9c3.firebaseapp.com',
-    storageBucket: 'fir-ff9c3.firebasestorage.app',
-    measurementId: 'G-QT203D6KPE',
+    apiKey: dotenv.env['WEB_API_KEY']!,
+        appId: dotenv.env['WEB_APP_ID']!,
+        messagingSenderId: dotenv.env['WEB_MESSAGING_SENDER_ID']!,
+        projectId: dotenv.env['WEB_PROJECT_ID']!,
+        authDomain: dotenv.env['WEB_AUTH_DOMAIN']!,
+        storageBucket: dotenv.env['WEB_STORAGE_BUCKET']!,
+        measurementId: dotenv.env['WEB_MEASUREMENT_ID']!,
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCEEIzVsb2DGxBbJkR_Ofd8GtIk9AxxUtg',
-    appId: '1:375429456766:android:a2b621d7adbb46bc7c892f',
-    messagingSenderId: '375429456766',
-    projectId: 'fir-ff9c3',
-    storageBucket: 'fir-ff9c3.firebasestorage.app',
+   apiKey: dotenv.env['ANDROID_API_KEY']!,
+        appId: dotenv.env['ANDROID_APP_ID']!,
+        messagingSenderId: dotenv.env['ANDROID_MESSAGING_SENDER_ID']!,
+        projectId: dotenv.env['ANDROID_PROJECT_ID']!,
+        storageBucket: dotenv.env['ANDROID_STORAGE_BUCKET']!,
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBbas_waV63ybKo7b6GuxBetQczj91w3Fg',
-    appId: '1:375429456766:web:3a64b2ff6b72288c7c892f',
-    messagingSenderId: '375429456766',
-    projectId: 'fir-ff9c3',
-    authDomain: 'fir-ff9c3.firebaseapp.com',
-    storageBucket: 'fir-ff9c3.firebasestorage.app',
-    measurementId: 'G-KQTEN0HJS1',
+   apiKey: dotenv.env['WINDOWS_API_KEY']!,
+        appId: dotenv.env['WINDOWS_APP_ID']!,
+        messagingSenderId: dotenv.env['WINDOWS_MESSAGING_SENDER_ID']!,
+        projectId: dotenv.env['WINDOWS_PROJECT_ID']!,
+        authDomain: dotenv.env['WINDOWS_AUTH_DOMAIN']!,
+        storageBucket: dotenv.env['WINDOWS_STORAGE_BUCKET']!,
+        measurementId: dotenv.env['WINDOWS_MEASUREMENT_ID']!,
   );
 }
