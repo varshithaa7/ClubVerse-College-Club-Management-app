@@ -43,6 +43,7 @@ dependencies:
   cloud_firestore: ^5.6.0
   url_launcher: ^6.3.1
   intl: ^0.20.1
+  flutter_dotenv: ^5.2.1
 
 dev_dependencies:
   flutter_test:
